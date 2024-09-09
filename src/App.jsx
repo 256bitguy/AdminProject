@@ -4,6 +4,8 @@ import Chat from "./component/Chat/List"
 import ChatBox from "./component/Chat/ChatBox"
 import LeadData from "./component/Leads/LeadData"
 import MemberPage from "./component/Members/MemberPage"
+import Setting from "./component/Settings/Setting"
+import Team from "./component/Team/Team"
 
 const router=createBrowserRouter([
   {
@@ -26,7 +28,7 @@ const router=createBrowserRouter([
         },
         {
           path:'map',
-          element:<div className="flex justify-center items-center border border-black  h-screen  w-full font-bold text-3xl">team data</div>
+          element:<Team/>
         },
         {
           path:'team',
@@ -34,7 +36,7 @@ const router=createBrowserRouter([
         },
         {
           path:'setting',
-          element:<div className="flex justify-center items-center border border-black  h-screen  w-full  font-bold text-3xl">settings</div>
+          element:<Setting/>
         },
 
       ]
