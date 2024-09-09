@@ -17,7 +17,7 @@ const Team = () => {
             <option value="editor">Editor</option>
             <option value="viewer">Viewer</option>
             <option value="admin">Admin</option>
-            <option value="sale">Sales</option>
+            <option value="sale">Sales </option>
           </select>
         </form>
 
